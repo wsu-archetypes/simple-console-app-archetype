@@ -10,7 +10,7 @@ mvn clean install
 After installation, use `mvn archetype:generate` to generate the project, specifying the archetype groupid, id, and version. For example:
 
 ```
-mvn archetype:generate -DarchetypeCatalog=local -DarchetypeGroupId=edu.wsu -DarchetypeArtifactId=simple-console-app -DarchetypeVersion=1.0.0-SNAPSHOT -DgroupId=edu.wsu -DartifactId=myconsoleapp
+mvn archetype:generate -DarchetypeCatalog=local -DarchetypeGroupId=edu.wsu -DarchetypeArtifactId=simple-console-app -DarchetypeVersion=1.0.0-SNAPSHOT -DgroupId=edu.wsu -DartifactId=myconsoleapp -DinteractiveMode=false
 ```
 
 To execute the main method:
